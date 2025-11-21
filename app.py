@@ -18,7 +18,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
+    
     html, body, [class*="css"] {
         font-family: 'Roboto', sans-serif;
     }
@@ -57,7 +57,7 @@ st.markdown("""
         border: 1px solid rgba(255,255,255,0.2);
         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         color: white;
-        margin-bottom: 20px; /* Mobilde kartlar arası boşluk */
+        margin-bottom: 20px;
     }
     .info-card h3 {
         border-bottom: 2px solid #28a745;
@@ -101,7 +101,7 @@ st.markdown("""
         border-left: 8px solid #28a745;
         margin-bottom: 20px;
     }
-
+    
     /* RADYO BUTONLARI */
     .stRadio label {
         color: #001f3f !important;
@@ -130,30 +130,20 @@ st.markdown("""
         z-index: 9999;
     }
 
-    /* --- MOBİL İÇİN ÖZEL AYARLAR (MEDIA QUERY) --- */
+    /* MOBİL UYUMLULUK */
     @media only screen and (max-width: 600px) {
         .main-header { padding: 15px; margin-bottom: 15px; }
         .main-header h1 { font-size: 1.8rem !important; }
-
         .info-card { padding: 15px; margin-bottom: 15px; }
         .info-card h3 { font-size: 1.1rem; }
-
         .question-box { padding: 20px; }
         .question-box h2 { font-size: 1.2rem; }
         .question-box p { font-size: 1rem !important; }
-
-        .department-footer { 
-            font-size: 0.7rem; 
-            padding: 10px; 
-            letter-spacing: 0px;
-        }
-
-        /* Mobilde butonları biraz daha büyütelim (parmakla basmak için) */
+        .department-footer { font-size: 0.7rem; padding: 10px; letter-spacing: 0px;}
         .stButton button { padding: 15px 20px; font-size: 1rem; }
     }
 </style>
 """, unsafe_allow_html=True)
-
 
 # --- VERİTABANI ---
 def init_db():
@@ -164,7 +154,6 @@ def init_db():
     conn.commit()
     conn.close()
 
-
 def save_score(user, score, time_t):
     conn = sqlite3.connect('otogaz_quiz.db')
     c = conn.cursor()
@@ -172,13 +161,13 @@ def save_score(user, score, time_t):
     conn.commit()
     conn.close()
 
-
+# --- GÜNCELLEME: LIMIT 1000 YAPILDI ---
 def get_top_scores():
     conn = sqlite3.connect('otogaz_quiz.db')
-    df = pd.read_sql("SELECT username, score, time_taken FROM scores ORDER BY score DESC, time_taken ASC LIMIT 5", conn)
+    # Buradaki LIMIT 5 ibaresini LIMIT 1000 yaptık
+    df = pd.read_sql("SELECT username, score, time_taken FROM scores ORDER BY score DESC, time_taken ASC LIMIT 1000", conn)
     conn.close()
     return df
-
 
 @st.cache_data
 def load_qs():
@@ -192,11 +181,9 @@ def load_qs():
     except:
         return []
 
-
 def format_time(s):
     m, s = divmod(int(s), 60)
     return f"{m:02d}:{s:02d}"
-
 
 if 'page' not in st.session_state: st.session_state.page = 'home'
 if 'quiz_set' not in st.session_state: st.session_state.quiz_set = []
@@ -212,7 +199,7 @@ init_db()
 
 # 1. ANA SAYFA
 if st.session_state.page == 'home':
-
+    
     st.markdown("""
     <div class="main-header">
         <h1>LPG Bilgi Yarışması</h1>
@@ -238,7 +225,7 @@ if st.session_state.page == 'home':
             <p>Başlamak için rumuz giriniz.</p>
             <br>
         """, unsafe_allow_html=True)
-
+        
         name = st.text_input("Rumuz", placeholder="Örn: BattalGazi")
         st.write("")
         if st.button("SINAVI BAŞLAT", use_container_width=True):
@@ -255,7 +242,7 @@ if st.session_state.page == 'home':
                     st.session_state.page = 'quiz'
                     st.rerun()
                 else:
-                    st.error("Soru havuzu boş. Lütfen 'soru_olustur.py' çalıştırın.")
+                    st.error("Soru havuzu boş. Lütfen 'soru_olustur.py' dosyasını çalıştırıp soruları üretin.")
             else:
                 st.warning("Lütfen geçerli bir rumuz giriniz.")
         st.markdown("</div>", unsafe_allow_html=True)
@@ -263,15 +250,18 @@ if st.session_state.page == 'home':
     with col3:
         st.markdown("""
         <div class="info-card">
-            <h3>🏆 Lider Tablosu</h3>
+            <h3>🏆 Lider Tablosu (Top 1000)</h3>
         """, unsafe_allow_html=True)
-
+        
         df = get_top_scores()
         if not df.empty:
+            # Tablo yüksekliğini biraz artırdık ki listede kaydırma kolay olsun
             st.dataframe(
-                df,
+                df, 
                 column_config={"username": "Rumuz", "score": "Puan", "time_taken": "Süre"},
-                hide_index=True, use_container_width=True
+                hide_index=True, 
+                use_container_width=True,
+                height=400 
             )
         else:
             st.info("Henüz kayıt yok.")
@@ -285,7 +275,6 @@ elif st.session_state.page == 'quiz':
         st.session_state.page = 'result'
         st.rerun()
 
-    # Mobilde üst bilgiler alt alta gelebilir, columns ile bölelim
     c1, c2, c3 = st.columns([2, 2, 2])
     with c1:
         st.markdown(f"**👤 {st.session_state.user}**")
@@ -294,11 +283,10 @@ elif st.session_state.page == 'quiz':
         prog = (st.session_state.idx + 1) / total_q if total_q > 0 else 0
         st.progress(prog)
     with c3:
-        st.markdown(f"<div style='text-align:right; font-weight:bold;'>⏳ {format_time(remaining)}</div>",
-                    unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align:right; font-weight:bold;'>⏳ {format_time(remaining)}</div>", unsafe_allow_html=True)
 
     q = st.session_state.quiz_set[st.session_state.idx]
-
+    
     st.markdown(f"""
     <div class="question-box">
         <h2 style='margin-top:0;'>Soru {st.session_state.idx + 1}</h2>
@@ -307,19 +295,19 @@ elif st.session_state.page == 'quiz':
     """, unsafe_allow_html=True)
 
     choice = st.radio("Cevabınız:", q['options'], key=f"q_{st.session_state.idx}", index=None)
-
+    
     st.write("")
-    col_btn1, col_btn2 = st.columns([3, 2])  # Mobilde buton geniş kalsın
+    col_btn1, col_btn2 = st.columns([3, 2])
     with col_btn2:
         is_last = st.session_state.idx < len(st.session_state.quiz_set) - 1
         btn_txt = "Sonraki ➡️" if is_last else "Bitir 🏁"
-
+        
         if st.button(btn_txt, use_container_width=True):
             if choice:
                 st.session_state.answers[st.session_state.idx] = choice
                 if choice == q['answer']:
                     st.session_state.score += 1
-
+                
                 if is_last:
                     st.session_state.idx += 1
                     st.rerun()
@@ -333,26 +321,25 @@ elif st.session_state.page == 'quiz':
 elif st.session_state.page == 'result':
     final_t = time.time() - st.session_state.start
     if final_t > 300: final_t = 300
-
+    
     if 'saved' not in st.session_state:
         save_score(st.session_state.user, st.session_state.score, round(final_t, 2))
         st.session_state.saved = True
-
+    
     total_questions = len(st.session_state.quiz_set)
-
+    
     st.balloons()
-
+    
     st.markdown("""
     <div class="main-header">
         <h1>Sonuçlar ✔️</h1>
     </div>
     """, unsafe_allow_html=True)
-
+    
     c1, c2, c3 = st.columns(3)
     with c1:
         st.markdown(f"""<div class="info-card" style='text-align:center;'>
-            <h3>Doğru</h3><h2 style='color:#28a745;'>{st.session_state.score}/{total_questions}</h2></div>""",
-                    unsafe_allow_html=True)
+            <h3>Doğru</h3><h2 style='color:#28a745;'>{st.session_state.score}/{total_questions}</h2></div>""", unsafe_allow_html=True)
     with c2:
         puan = int((st.session_state.score / total_questions) * 100) if total_questions > 0 else 0
         st.markdown(f"""<div class="info-card" style='text-align:center;'>
@@ -363,12 +350,12 @@ elif st.session_state.page == 'result':
 
     st.write("")
     st.markdown("### 📄 Cevap Anahtarı")
-
+    
     for i, q in enumerate(st.session_state.quiz_set):
         u_ans = st.session_state.answers.get(i, "Boş")
         correct_ans = q['answer']
         is_corr = (u_ans == correct_ans)
-
+        
         if is_corr:
             border_color = "#28a745"
             icon = "✅"
@@ -380,7 +367,7 @@ elif st.session_state.page == 'result':
 
         st.markdown(f"""
         <div style="background-color: white; padding: 15px; border-radius: 10px; border-left: 6px solid {border_color}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 10px; color: #333;">
-            <div style="font-size: 1rem; font-weight: bold; color: #001f3f; margin-bottom: 5px;">{i + 1}. {q['question']}</div>
+            <div style="font-size: 1rem; font-weight: bold; color: #001f3f; margin-bottom: 5px;">{i+1}. {q['question']}</div>
             <div style="font-size: 0.95rem;">{icon} {feedback}</div>
         </div>
         """, unsafe_allow_html=True)
