@@ -161,10 +161,8 @@ def save_score(user, score, time_t):
     conn.commit()
     conn.close()
 
-# --- GÜNCELLEME: LIMIT 1000 YAPILDI ---
 def get_top_scores():
     conn = sqlite3.connect('otogaz_quiz.db')
-    # Buradaki LIMIT 5 ibaresini LIMIT 1000 yaptık
     df = pd.read_sql("SELECT username, score, time_taken FROM scores ORDER BY score DESC, time_taken ASC LIMIT 1000", conn)
     conn.close()
     return df
@@ -250,12 +248,11 @@ if st.session_state.page == 'home':
     with col3:
         st.markdown("""
         <div class="info-card">
-            <h3>🏆 Lider Tablosu (Top 1000)</h3>
+            <h3>🏆 Lider Tablosu</h3>
         """, unsafe_allow_html=True)
         
         df = get_top_scores()
         if not df.empty:
-            # Tablo yüksekliğini biraz artırdık ki listede kaydırma kolay olsun
             st.dataframe(
                 df, 
                 column_config={"username": "Rumuz", "score": "Puan", "time_taken": "Süre"},
