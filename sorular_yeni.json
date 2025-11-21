@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 68,
+        "question": "LPG 'Kuru Yakıt' mıdır?",
+        "options": [
+            "Hayır, çok yağlıdır",
+            "Sulu yakıttır",
+            "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+            "Köpüklüdür"
+        ],
+        "answer": "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 4,
+        "question": "Güvenlik gereği LPG tankı kapasitesinin en fazla yüzde kaçı doldurulur?",
+        "options": [
+            "%50",
+            "%80",
+            "%95",
+            "%100 (Tamamı)"
+        ],
+        "answer": "%80",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 55,
+        "question": "LPG dolumu yapılırken araç çalışır durumda olabilir mi?",
+        "options": [
+            "Farketmez",
+            "Klima açıksa çalışabilir",
+            "Hayır, kontak kesinlikle kapalı olmalıdır",
+            "Evet, rölantide çalışabilir"
+        ],
+        "answer": "Hayır, kontak kesinlikle kapalı olmalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 87,
+        "question": "Sıralı sistem LPG'li araç ilk çalıştırıldığında hangi yakıtı kullanır?",
+        "options": [
+            "LPG",
+            "Benzin",
+            "Dizel",
+            "Elektrik"
+        ],
+        "answer": "Benzin",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 36,
+        "question": "LPG gösterge düğmesindeki ışıklar sönükse ne anlama gelir?",
+        "options": [
+            "Araba çok hızlıdır",
+            "Depo tam doludur",
+            "Motor arızalıdır",
+            "Gaz bitmiş veya sistem kapalı olabilir"
+        ],
+        "answer": "Gaz bitmiş veya sistem kapalı olabilir",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 11,
+        "question": "LPG gösterge düğmesindeki ışıklar sönükse ne anlama gelir?",
+        "options": [
+            "Gaz bitmiş veya sistem kapalı olabilir",
+            "Araba çok hızlıdır",
+            "Motor arızalıdır",
+            "Depo tam doludur"
+        ],
+        "answer": "Gaz bitmiş veya sistem kapalı olabilir",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 52,
+        "question": "LPG esas olarak hangi iki gazın karışımından oluşur?",
+        "options": [
+            "Hidrojen ve Karbon",
+            "Metan ve Helyum",
+            "Azot ve Oksijen",
+            "Propan ve Bütan"
+        ],
+        "answer": "Propan ve Bütan",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 37,
+        "question": "Sıralı sistem LPG'li araç ilk çalıştırıldığında hangi yakıtı kullanır?",
+        "options": [
+            "LPG",
+            "Benzin",
+            "Elektrik",
+            "Dizel"
+        ],
+        "answer": "Benzin",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 1,
+        "question": "LPG'nin açılımı nedir?",
+        "options": [
+            "Lokal Petrol Gazı",
+            "Likit Propan Gazı",
+            "Likit Petrol Gücü",
+            "Sıvılaştırılmış Petrol Gazı"
+        ],
+        "answer": "Sıvılaştırılmış Petrol Gazı",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 76,
+        "question": "LPG'nin açılımı nedir?",
+        "options": [
+            "Likit Propan Gazı",
+            "Lokal Petrol Gazı",
+            "Likit Petrol Gücü",
+            "Sıvılaştırılmış Petrol Gazı"
+        ],
+        "answer": "Sıvılaştırılmış Petrol Gazı",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 78,
+        "question": "LPG tanklarının kullanım ömrü (değişim süresi) kaç yıldır?",
+        "options": [
+            "20 Yıl",
+            "10 Yıl",
+            "5 Yıl",
+            "15 Yıl"
+        ],
+        "answer": "10 Yıl",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 88,
+        "question": "LPG dolum ağzı kapağı neden kapalı tutulmalıdır?",
+        "options": [
+            "Güneşten korumak için",
+            "Yasak olduğu için",
+            "Gazın uçmasını engellemek için",
+            "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için"
+        ],
+        "answer": "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 10,
+        "question": "LPG dönüşümü yapılan bir araçta sızdırmazlık kontrolü nasıl yapılmalıdır?",
+        "options": [
+            "Gözle bakarak",
+            "Çakmak yakarak",
+            "Su dökerek",
+            "Gaz dedektörü veya özel köpük ile"
+        ],
+        "answer": "Gaz dedektörü veya özel köpük ile",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 54,
+        "question": "Güvenlik gereği LPG tankı kapasitesinin en fazla yüzde kaçı doldurulur?",
+        "options": [
+            "%50",
+            "%100 (Tamamı)",
+            "%95",
+            "%80"
+        ],
+        "answer": "%80",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 44,
+        "question": "Otogaz alırken pompacı tabancayı zorlayıp sallıyorsa ne yapılmalı?",
+        "options": [
+            "Araba sallanmalıdır",
+            "Teşekkür edilmelidir",
+            "Dolum hemen durdurulmalı, zorlanmamalıdır",
+            "Daha çok alması için izin verilmelidir"
+        ],
+        "answer": "Dolum hemen durdurulmalı, zorlanmamalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 66,
+        "question": "LPG tankı üzerindeki şamandıra ne işe yarar?",
+        "options": [
+            "Motoru soğutur",
+            "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+            "Arabayı hızlandırır",
+            "Frenleri kontrol eder"
+        ],
+        "answer": "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 49,
+        "question": "Kışın LPG'nin donmaması için ne önemlidir?",
+        "options": [
+            "İçine tuz atılması",
+            "Güneşte park edilmesi",
+            "Deponun battaniye ile sarılması",
+            "Antifrizli motor suyunun regülatörü ısıtması"
+        ],
+        "answer": "Antifrizli motor suyunun regülatörü ısıtması",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 41,
+        "question": "LPG tankı üzerindeki şamandıra ne işe yarar?",
+        "options": [
+            "Motoru soğutur",
+            "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+            "Frenleri kontrol eder",
+            "Arabayı hızlandırır"
+        ],
+        "answer": "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 59,
+        "question": "LPG'li araçlarda gaz filtresi ortalama kaç km'de bir değişmelidir?",
+        "options": [
+            "10.000 - 15.000 km",
+            "100.000 km",
+            "50.000 km",
+            "Hiç değişmez"
+        ],
+        "answer": "10.000 - 15.000 km",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 45,
+        "question": "LPG montajından sonra ruhsata işletmek için yasal süre ne kadardır?",
+        "options": [
+            "1 Yıl",
+            "Süre sınırı yoktur",
+            "1 Hafta",
+            "30 Gün"
+        ],
+        "answer": "30 Gün",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 16,
+        "question": "LPG tankı üzerindeki şamandıra ne işe yarar?",
+        "options": [
+            "Frenleri kontrol eder",
+            "Arabayı hızlandırır",
+            "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+            "Motoru soğutur"
+        ],
+        "answer": "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 46,
+        "question": "LPG'nin oktanı (yanma kalitesi) benzine göre nasıldır?",
+        "options": [
+            "Daha düşüktür",
+            "Aynısıdır",
+            "Daha yüksektir (100+)",
+            "Çok kötüdür"
+        ],
+        "answer": "Daha yüksektir (100+)",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 64,
+        "question": "LPG benzine göre neden daha ekonomiktir?",
+        "options": [
+            "Devlet desteği olduğu için",
+            "Litre fiyatı benzine göre daha uygun olduğu için",
+            "Bedava olduğu için",
+            "Daha az yakıt tükettiği için"
+        ],
+        "answer": "Litre fiyatı benzine göre daha uygun olduğu için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 15,
+        "question": "Kapalı otoparklara LPG'li araç girebilir mi?",
+        "options": [
+            "Asla giremez",
+            "Sadece uygun havalandırması olan ve izin verilen yerlere",
+            "Sadece kışın girebilir",
+            "Her yere girebilir"
+        ],
+        "answer": "Sadece uygun havalandırması olan ve izin verilen yerlere",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 62,
+        "question": "Sıralı sistem LPG'li araç ilk çalıştırıldığında hangi yakıtı kullanır?",
+        "options": [
+            "Benzin",
+            "Elektrik",
+            "Dizel",
+            "LPG"
+        ],
+        "answer": "Benzin",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 67,
+        "question": "Motor arıza lambası LPG'de neden yanabilir?",
+        "options": [
+            "Radyo açıksa",
+            "Hava-Yakıt karışımı ayarı bozuksa",
+            "Depo çok doluysa",
+            "Lastik inikse"
+        ],
+        "answer": "Hava-Yakıt karışımı ayarı bozuksa",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 25,
+        "question": "LPG düğmesinde kırmızı ışık yanıyorsa ne demektir?",
+        "options": [
+            "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+            "Akü bitti",
+            "Motor bozuldu",
+            "Lastik patladı"
+        ],
+        "answer": "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 84,
+        "question": "LPG'li araçlarda gaz filtresi ortalama kaç km'de bir değişmelidir?",
+        "options": [
+            "50.000 km",
+            "10.000 - 15.000 km",
+            "100.000 km",
+            "Hiç değişmez"
+        ],
+        "answer": "10.000 - 15.000 km",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 86,
+        "question": "LPG gösterge düğmesindeki ışıklar sönükse ne anlama gelir?",
+        "options": [
+            "Depo tam doludur",
+            "Motor arızalıdır",
+            "Gaz bitmiş veya sistem kapalı olabilir",
+            "Araba çok hızlıdır"
+        ],
+        "answer": "Gaz bitmiş veya sistem kapalı olabilir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 24,
+        "question": "Kışın LPG'nin donmaması için ne önemlidir?",
+        "options": [
+            "Güneşte park edilmesi",
+            "Antifrizli motor suyunun regülatörü ısıtması",
+            "İçine tuz atılması",
+            "Deponun battaniye ile sarılması"
+        ],
+        "answer": "Antifrizli motor suyunun regülatörü ısıtması",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 72,
+        "question": "LPG tankı bagajda nasıl durmalıdır?",
+        "options": [
+            "Yan yatmalıdır",
+            "Özel kuşaklarla sabitlenmiş olmalıdır",
+            "Ters çevrilmelidir",
+            "Serbestçe durabilir"
+        ],
+        "answer": "Özel kuşaklarla sabitlenmiş olmalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 23,
+        "question": "Hangisi LPG sisteminin bir parçasıdır?",
+        "options": [
+            "Radyatör",
+            "Regülatör (Beyin)",
+            "Amortisör",
+            "Karbüratör"
+        ],
+        "answer": "Regülatör (Beyin)",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 61,
+        "question": "LPG gösterge düğmesindeki ışıklar sönükse ne anlama gelir?",
+        "options": [
+            "Araba çok hızlıdır",
+            "Depo tam doludur",
+            "Gaz bitmiş veya sistem kapalı olabilir",
+            "Motor arızalıdır"
+        ],
+        "answer": "Gaz bitmiş veya sistem kapalı olabilir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 80,
+        "question": "LPG dolumu yapılırken araç çalışır durumda olabilir mi?",
+        "options": [
+            "Evet, rölantide çalışabilir",
+            "Klima açıksa çalışabilir",
+            "Hayır, kontak kesinlikle kapalı olmalıdır",
+            "Farketmez"
+        ],
+        "answer": "Hayır, kontak kesinlikle kapalı olmalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 60,
+        "question": "LPG dönüşümü yapılan bir araçta sızdırmazlık kontrolü nasıl yapılmalıdır?",
+        "options": [
+            "Gaz dedektörü veya özel köpük ile",
+            "Gözle bakarak",
+            "Su dökerek",
+            "Çakmak yakarak"
+        ],
+        "answer": "Gaz dedektörü veya özel köpük ile",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 100,
+        "question": "LPG düğmesinde kırmızı ışık yanıyorsa ne demektir?",
+        "options": [
+            "Akü bitti",
+            "Motor bozuldu",
+            "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+            "Lastik patladı"
+        ],
+        "answer": "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 94,
+        "question": "Otogaz alırken pompacı tabancayı zorlayıp sallıyorsa ne yapılmalı?",
+        "options": [
+            "Araba sallanmalıdır",
+            "Daha çok alması için izin verilmelidir",
+            "Teşekkür edilmelidir",
+            "Dolum hemen durdurulmalı, zorlanmamalıdır"
+        ],
+        "answer": "Dolum hemen durdurulmalı, zorlanmamalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 17,
+        "question": "Motor arıza lambası LPG'de neden yanabilir?",
+        "options": [
+            "Radyo açıksa",
+            "Lastik inikse",
+            "Hava-Yakıt karışımı ayarı bozuksa",
+            "Depo çok doluysa"
+        ],
+        "answer": "Hava-Yakıt karışımı ayarı bozuksa",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 74,
+        "question": "Kışın LPG'nin donmaması için ne önemlidir?",
+        "options": [
+            "İçine tuz atılması",
+            "Antifrizli motor suyunun regülatörü ısıtması",
+            "Güneşte park edilmesi",
+            "Deponun battaniye ile sarılması"
+        ],
+        "answer": "Antifrizli motor suyunun regülatörü ısıtması",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 83,
+        "question": "Stepne (Yedek lastik) yerine takılan tank modeline ne ad verilir?",
+        "options": [
+            "Kare Tank",
+            "Kapsül Tank",
+            "Simit Tank",
+            "Silindir Tank"
+        ],
+        "answer": "Simit Tank",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 31,
+        "question": "LPG kaçağı olduğunda gaz nerede birikir?",
+        "options": [
+            "Havadan hafiftir uçar gider",
+            "Havadan ağır olduğu için yere çöker",
+            "Motorun içine girer",
+            "Tavana yükselir"
+        ],
+        "answer": "Havadan ağır olduğu için yere çöker",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 29,
+        "question": "Güvenlik gereği LPG tankı kapasitesinin en fazla yüzde kaçı doldurulur?",
+        "options": [
+            "%95",
+            "%100 (Tamamı)",
+            "%80",
+            "%50"
+        ],
+        "answer": "%80",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 71,
+        "question": "LPG'nin oktanı (yanma kalitesi) benzine göre nasıldır?",
+        "options": [
+            "Daha düşüktür",
+            "Daha yüksektir (100+)",
+            "Aynısıdır",
+            "Çok kötüdür"
+        ],
+        "answer": "Daha yüksektir (100+)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 18,
+        "question": "LPG 'Kuru Yakıt' mıdır?",
+        "options": [
+            "Hayır, çok yağlıdır",
+            "Köpüklüdür",
+            "Sulu yakıttır",
+            "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır"
+        ],
+        "answer": "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 13,
+        "question": "LPG dolum ağzı kapağı neden kapalı tutulmalıdır?",
+        "options": [
+            "Yasak olduğu için",
+            "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+            "Güneşten korumak için",
+            "Gazın uçmasını engellemek için"
+        ],
+        "answer": "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 43,
+        "question": "LPG 'Kuru Yakıt' mıdır?",
+        "options": [
+            "Köpüklüdür",
+            "Hayır, çok yağlıdır",
+            "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+            "Sulu yakıttır"
+        ],
+        "answer": "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 85,
+        "question": "LPG dönüşümü yapılan bir araçta sızdırmazlık kontrolü nasıl yapılmalıdır?",
+        "options": [
+            "Gaz dedektörü veya özel köpük ile",
+            "Su dökerek",
+            "Çakmak yakarak",
+            "Gözle bakarak"
+        ],
+        "answer": "Gaz dedektörü veya özel köpük ile",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 93,
+        "question": "LPG 'Kuru Yakıt' mıdır?",
+        "options": [
+            "Sulu yakıttır",
+            "Köpüklüdür",
+            "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+            "Hayır, çok yağlıdır"
+        ],
+        "answer": "Evet, sıvı olarak değil gaz fazında yandığı için yağlama etkisi azdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 14,
+        "question": "LPG benzine göre neden daha ekonomiktir?",
+        "options": [
+            "Bedava olduğu için",
+            "Devlet desteği olduğu için",
+            "Daha az yakıt tükettiği için",
+            "Litre fiyatı benzine göre daha uygun olduğu için"
+        ],
+        "answer": "Litre fiyatı benzine göre daha uygun olduğu için",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 30,
+        "question": "LPG dolumu yapılırken araç çalışır durumda olabilir mi?",
+        "options": [
+            "Klima açıksa çalışabilir",
+            "Hayır, kontak kesinlikle kapalı olmalıdır",
+            "Evet, rölantide çalışabilir",
+            "Farketmez"
+        ],
+        "answer": "Hayır, kontak kesinlikle kapalı olmalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 82,
+        "question": "LPG kokusu neye benzer (Kaçak durumunda)?",
+        "options": [
+            "Benzin kokusuna",
+            "Çürük sarımsak veya yumurta kokusuna",
+            "Yanık plastik kokusuna",
+            "Keskin nane kokusuna"
+        ],
+        "answer": "Çürük sarımsak veya yumurta kokusuna",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 9,
+        "question": "LPG'li araçlarda gaz filtresi ortalama kaç km'de bir değişmelidir?",
+        "options": [
+            "50.000 km",
+            "10.000 - 15.000 km",
+            "100.000 km",
+            "Hiç değişmez"
+        ],
+        "answer": "10.000 - 15.000 km",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 7,
+        "question": "LPG kokusu neye benzer (Kaçak durumunda)?",
+        "options": [
+            "Çürük sarımsak veya yumurta kokusuna",
+            "Keskin nane kokusuna",
+            "Benzin kokusuna",
+            "Yanık plastik kokusuna"
+        ],
+        "answer": "Çürük sarımsak veya yumurta kokusuna",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 39,
+        "question": "LPG benzine göre neden daha ekonomiktir?",
+        "options": [
+            "Daha az yakıt tükettiği için",
+            "Devlet desteği olduğu için",
+            "Bedava olduğu için",
+            "Litre fiyatı benzine göre daha uygun olduğu için"
+        ],
+        "answer": "Litre fiyatı benzine göre daha uygun olduğu için",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 53,
+        "question": "LPG tanklarının kullanım ömrü (değişim süresi) kaç yıldır?",
+        "options": [
+            "5 Yıl",
+            "15 Yıl",
+            "20 Yıl",
+            "10 Yıl"
+        ],
+        "answer": "10 Yıl",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 32,
+        "question": "LPG kokusu neye benzer (Kaçak durumunda)?",
+        "options": [
+            "Çürük sarımsak veya yumurta kokusuna",
+            "Benzin kokusuna",
+            "Yanık plastik kokusuna",
+            "Keskin nane kokusuna"
+        ],
+        "answer": "Çürük sarımsak veya yumurta kokusuna",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 96,
+        "question": "LPG'nin oktanı (yanma kalitesi) benzine göre nasıldır?",
+        "options": [
+            "Daha düşüktür",
+            "Çok kötüdür",
+            "Aynısıdır",
+            "Daha yüksektir (100+)"
+        ],
+        "answer": "Daha yüksektir (100+)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 90,
+        "question": "Kapalı otoparklara LPG'li araç girebilir mi?",
+        "options": [
+            "Sadece uygun havalandırması olan ve izin verilen yerlere",
+            "Asla giremez",
+            "Her yere girebilir",
+            "Sadece kışın girebilir"
+        ],
+        "answer": "Sadece uygun havalandırması olan ve izin verilen yerlere",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 19,
+        "question": "Otogaz alırken pompacı tabancayı zorlayıp sallıyorsa ne yapılmalı?",
+        "options": [
+            "Teşekkür edilmelidir",
+            "Araba sallanmalıdır",
+            "Dolum hemen durdurulmalı, zorlanmamalıdır",
+            "Daha çok alması için izin verilmelidir"
+        ],
+        "answer": "Dolum hemen durdurulmalı, zorlanmamalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 75,
+        "question": "LPG düğmesinde kırmızı ışık yanıyorsa ne demektir?",
+        "options": [
+            "Lastik patladı",
+            "Akü bitti",
+            "Motor bozuldu",
+            "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor"
+        ],
+        "answer": "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 81,
+        "question": "LPG kaçağı olduğunda gaz nerede birikir?",
+        "options": [
+            "Havadan ağır olduğu için yere çöker",
+            "Havadan hafiftir uçar gider",
+            "Motorun içine girer",
+            "Tavana yükselir"
+        ],
+        "answer": "Havadan ağır olduğu için yere çöker",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 38,
+        "question": "LPG dolum ağzı kapağı neden kapalı tutulmalıdır?",
+        "options": [
+            "Güneşten korumak için",
+            "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+            "Gazın uçmasını engellemek için",
+            "Yasak olduğu için"
+        ],
+        "answer": "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 97,
+        "question": "LPG tankı bagajda nasıl durmalıdır?",
+        "options": [
+            "Ters çevrilmelidir",
+            "Özel kuşaklarla sabitlenmiş olmalıdır",
+            "Yan yatmalıdır",
+            "Serbestçe durabilir"
+        ],
+        "answer": "Özel kuşaklarla sabitlenmiş olmalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 69,
+        "question": "Otogaz alırken pompacı tabancayı zorlayıp sallıyorsa ne yapılmalı?",
+        "options": [
+            "Araba sallanmalıdır",
+            "Teşekkür edilmelidir",
+            "Daha çok alması için izin verilmelidir",
+            "Dolum hemen durdurulmalı, zorlanmamalıdır"
+        ],
+        "answer": "Dolum hemen durdurulmalı, zorlanmamalıdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 73,
+        "question": "Hangisi LPG sisteminin bir parçasıdır?",
+        "options": [
+            "Karbüratör",
+            "Amortisör",
+            "Regülatör (Beyin)",
+            "Radyatör"
+        ],
+        "answer": "Regülatör (Beyin)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 95,
+        "question": "LPG montajından sonra ruhsata işletmek için yasal süre ne kadardır?",
+        "options": [
+            "1 Yıl",
+            "30 Gün",
+            "Süre sınırı yoktur",
+            "1 Hafta"
+        ],
+        "answer": "30 Gün",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 27,
+        "question": "LPG esas olarak hangi iki gazın karışımından oluşur?",
+        "options": [
+            "Propan ve Bütan",
+            "Azot ve Oksijen",
+            "Metan ve Helyum",
+            "Hidrojen ve Karbon"
+        ],
+        "answer": "Propan ve Bütan",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 22,
+        "question": "LPG tankı bagajda nasıl durmalıdır?",
+        "options": [
+            "Ters çevrilmelidir",
+            "Özel kuşaklarla sabitlenmiş olmalıdır",
+            "Yan yatmalıdır",
+            "Serbestçe durabilir"
+        ],
+        "answer": "Özel kuşaklarla sabitlenmiş olmalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 20,
+        "question": "LPG montajından sonra ruhsata işletmek için yasal süre ne kadardır?",
+        "options": [
+            "1 Hafta",
+            "1 Yıl",
+            "Süre sınırı yoktur",
+            "30 Gün"
+        ],
+        "answer": "30 Gün",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 48,
+        "question": "Hangisi LPG sisteminin bir parçasıdır?",
+        "options": [
+            "Radyatör",
+            "Karbüratör",
+            "Amortisör",
+            "Regülatör (Beyin)"
+        ],
+        "answer": "Regülatör (Beyin)",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 56,
+        "question": "LPG kaçağı olduğunda gaz nerede birikir?",
+        "options": [
+            "Tavana yükselir",
+            "Havadan hafiftir uçar gider",
+            "Havadan ağır olduğu için yere çöker",
+            "Motorun içine girer"
+        ],
+        "answer": "Havadan ağır olduğu için yere çöker",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 6,
+        "question": "LPG kaçağı olduğunda gaz nerede birikir?",
+        "options": [
+            "Havadan ağır olduğu için yere çöker",
+            "Havadan hafiftir uçar gider",
+            "Tavana yükselir",
+            "Motorun içine girer"
+        ],
+        "answer": "Havadan ağır olduğu için yere çöker",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 42,
+        "question": "Motor arıza lambası LPG'de neden yanabilir?",
+        "options": [
+            "Hava-Yakıt karışımı ayarı bozuksa",
+            "Depo çok doluysa",
+            "Radyo açıksa",
+            "Lastik inikse"
+        ],
+        "answer": "Hava-Yakıt karışımı ayarı bozuksa",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 8,
+        "question": "Stepne (Yedek lastik) yerine takılan tank modeline ne ad verilir?",
+        "options": [
+            "Simit Tank",
+            "Silindir Tank",
+            "Kapsül Tank",
+            "Kare Tank"
+        ],
+        "answer": "Simit Tank",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 5,
+        "question": "LPG dolumu yapılırken araç çalışır durumda olabilir mi?",
+        "options": [
+            "Klima açıksa çalışabilir",
+            "Evet, rölantide çalışabilir",
+            "Farketmez",
+            "Hayır, kontak kesinlikle kapalı olmalıdır"
+        ],
+        "answer": "Hayır, kontak kesinlikle kapalı olmalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 91,
+        "question": "LPG tankı üzerindeki şamandıra ne işe yarar?",
+        "options": [
+            "Frenleri kontrol eder",
+            "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+            "Arabayı hızlandırır",
+            "Motoru soğutur"
+        ],
+        "answer": "Yakıt seviyesini gösterir ve dolumu %80'de keser",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 63,
+        "question": "LPG dolum ağzı kapağı neden kapalı tutulmalıdır?",
+        "options": [
+            "Gazın uçmasını engellemek için",
+            "Güneşten korumak için",
+            "Yasak olduğu için",
+            "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için"
+        ],
+        "answer": "Dolum ucunu temiz tutmak ve kaçak riskini önlemek için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 77,
+        "question": "LPG esas olarak hangi iki gazın karışımından oluşur?",
+        "options": [
+            "Metan ve Helyum",
+            "Azot ve Oksijen",
+            "Propan ve Bütan",
+            "Hidrojen ve Karbon"
+        ],
+        "answer": "Propan ve Bütan",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 98,
+        "question": "Hangisi LPG sisteminin bir parçasıdır?",
+        "options": [
+            "Karbüratör",
+            "Regülatör (Beyin)",
+            "Amortisör",
+            "Radyatör"
+        ],
+        "answer": "Regülatör (Beyin)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 58,
+        "question": "Stepne (Yedek lastik) yerine takılan tank modeline ne ad verilir?",
+        "options": [
+            "Kare Tank",
+            "Silindir Tank",
+            "Simit Tank",
+            "Kapsül Tank"
+        ],
+        "answer": "Simit Tank",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 21,
+        "question": "LPG'nin oktanı (yanma kalitesi) benzine göre nasıldır?",
+        "options": [
+            "Aynısıdır",
+            "Daha düşüktür",
+            "Çok kötüdür",
+            "Daha yüksektir (100+)"
+        ],
+        "answer": "Daha yüksektir (100+)",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 47,
+        "question": "LPG tankı bagajda nasıl durmalıdır?",
+        "options": [
+            "Yan yatmalıdır",
+            "Ters çevrilmelidir",
+            "Özel kuşaklarla sabitlenmiş olmalıdır",
+            "Serbestçe durabilir"
+        ],
+        "answer": "Özel kuşaklarla sabitlenmiş olmalıdır",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 70,
+        "question": "LPG montajından sonra ruhsata işletmek için yasal süre ne kadardır?",
+        "options": [
+            "1 Hafta",
+            "Süre sınırı yoktur",
+            "1 Yıl",
+            "30 Gün"
+        ],
+        "answer": "30 Gün",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 35,
+        "question": "LPG dönüşümü yapılan bir araçta sızdırmazlık kontrolü nasıl yapılmalıdır?",
+        "options": [
+            "Gaz dedektörü veya özel köpük ile",
+            "Çakmak yakarak",
+            "Gözle bakarak",
+            "Su dökerek"
+        ],
+        "answer": "Gaz dedektörü veya özel köpük ile",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 79,
+        "question": "Güvenlik gereği LPG tankı kapasitesinin en fazla yüzde kaçı doldurulur?",
+        "options": [
+            "%50",
+            "%80",
+            "%95",
+            "%100 (Tamamı)"
+        ],
+        "answer": "%80",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 40,
+        "question": "Kapalı otoparklara LPG'li araç girebilir mi?",
+        "options": [
+            "Sadece uygun havalandırması olan ve izin verilen yerlere",
+            "Sadece kışın girebilir",
+            "Her yere girebilir",
+            "Asla giremez"
+        ],
+        "answer": "Sadece uygun havalandırması olan ve izin verilen yerlere",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 57,
+        "question": "LPG kokusu neye benzer (Kaçak durumunda)?",
+        "options": [
+            "Çürük sarımsak veya yumurta kokusuna",
+            "Keskin nane kokusuna",
+            "Yanık plastik kokusuna",
+            "Benzin kokusuna"
+        ],
+        "answer": "Çürük sarımsak veya yumurta kokusuna",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 12,
+        "question": "Sıralı sistem LPG'li araç ilk çalıştırıldığında hangi yakıtı kullanır?",
+        "options": [
+            "LPG",
+            "Elektrik",
+            "Dizel",
+            "Benzin"
+        ],
+        "answer": "Benzin",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 65,
+        "question": "Kapalı otoparklara LPG'li araç girebilir mi?",
+        "options": [
+            "Asla giremez",
+            "Sadece kışın girebilir",
+            "Her yere girebilir",
+            "Sadece uygun havalandırması olan ve izin verilen yerlere"
+        ],
+        "answer": "Sadece uygun havalandırması olan ve izin verilen yerlere",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 50,
+        "question": "LPG düğmesinde kırmızı ışık yanıyorsa ne demektir?",
+        "options": [
+            "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+            "Motor bozuldu",
+            "Lastik patladı",
+            "Akü bitti"
+        ],
+        "answer": "LPG bitmek üzere (Rezerv) veya benzinde çalışıyor",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 89,
+        "question": "LPG benzine göre neden daha ekonomiktir?",
+        "options": [
+            "Daha az yakıt tükettiği için",
+            "Bedava olduğu için",
+            "Devlet desteği olduğu için",
+            "Litre fiyatı benzine göre daha uygun olduğu için"
+        ],
+        "answer": "Litre fiyatı benzine göre daha uygun olduğu için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 51,
+        "question": "LPG'nin açılımı nedir?",
+        "options": [
+            "Sıvılaştırılmış Petrol Gazı",
+            "Likit Propan Gazı",
+            "Likit Petrol Gücü",
+            "Lokal Petrol Gazı"
+        ],
+        "answer": "Sıvılaştırılmış Petrol Gazı",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 28,
+        "question": "LPG tanklarının kullanım ömrü (değişim süresi) kaç yıldır?",
+        "options": [
+            "5 Yıl",
+            "10 Yıl",
+            "15 Yıl",
+            "20 Yıl"
+        ],
+        "answer": "10 Yıl",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 26,
+        "question": "LPG'nin açılımı nedir?",
+        "options": [
+            "Sıvılaştırılmış Petrol Gazı",
+            "Likit Petrol Gücü",
+            "Likit Propan Gazı",
+            "Lokal Petrol Gazı"
+        ],
+        "answer": "Sıvılaştırılmış Petrol Gazı",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 33,
+        "question": "Stepne (Yedek lastik) yerine takılan tank modeline ne ad verilir?",
+        "options": [
+            "Kare Tank",
+            "Silindir Tank",
+            "Kapsül Tank",
+            "Simit Tank"
+        ],
+        "answer": "Simit Tank",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 3,
+        "question": "LPG tanklarının kullanım ömrü (değişim süresi) kaç yıldır?",
+        "options": [
+            "20 Yıl",
+            "5 Yıl",
+            "10 Yıl",
+            "15 Yıl"
+        ],
+        "answer": "10 Yıl",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 92,
+        "question": "Motor arıza lambası LPG'de neden yanabilir?",
+        "options": [
+            "Depo çok doluysa",
+            "Hava-Yakıt karışımı ayarı bozuksa",
+            "Lastik inikse",
+            "Radyo açıksa"
+        ],
+        "answer": "Hava-Yakıt karışımı ayarı bozuksa",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 34,
+        "question": "LPG'li araçlarda gaz filtresi ortalama kaç km'de bir değişmelidir?",
+        "options": [
+            "Hiç değişmez",
+            "100.000 km",
+            "50.000 km",
+            "10.000 - 15.000 km"
+        ],
+        "answer": "10.000 - 15.000 km",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 99,
+        "question": "Kışın LPG'nin donmaması için ne önemlidir?",
+        "options": [
+            "İçine tuz atılması",
+            "Güneşte park edilmesi",
+            "Deponun battaniye ile sarılması",
+            "Antifrizli motor suyunun regülatörü ısıtması"
+        ],
+        "answer": "Antifrizli motor suyunun regülatörü ısıtması",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 2,
+        "question": "LPG esas olarak hangi iki gazın karışımından oluşur?",
+        "options": [
+            "Propan ve Bütan",
+            "Metan ve Helyum",
+            "Hidrojen ve Karbon",
+            "Azot ve Oksijen"
+        ],
+        "answer": "Propan ve Bütan",
+        "difficulty": "Kolay"
+    }
+]
