@@ -1,0 +1,362 @@
+[
+    {
+        "id": 8,
+        "question": "LPG enjektörlerinde 'Ohm' değeri neyi ifade eder?",
+        "options": [
+            "Enjektörün rengini",
+            "Gazın sıcaklığını",
+            "Bobin direncini (Düşük Ohm daha hızlı tepki verir)",
+            "Hortum çapını"
+        ],
+        "answer": "Bobin direncini (Düşük Ohm daha hızlı tepki verir)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 12,
+        "question": "LPG dolum ağzı (Dolum ucu) montaj yüksekliği yerden en az kaç cm olmalıdır?",
+        "options": [
+            "25 cm",
+            "Farketmez",
+            "1 metre",
+            "5 cm"
+        ],
+        "answer": "25 cm",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 10,
+        "question": "LPG tanklarının periyodik muayenesinde (TÜVTÜRK) aranan 'Tip Onay' işareti hangisidir?",
+        "options": [
+            "TSE-ISO-9001",
+            "E67R-01",
+            "EURO-6",
+            "CE-2023"
+        ],
+        "answer": "E67R-01",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 2,
+        "question": "Otogaz istasyonlarında 'Topraklama Pensesi' kullanımı neden zorunludur?",
+        "options": [
+            "Depoyu araca sabitlemek için",
+            "Statik elektrik kaynaklı kıvılcımı önlemek için",
+            "Pompanın çalışması için",
+            "Gaz basıncını dengelemek için"
+        ],
+        "answer": "Statik elektrik kaynaklı kıvılcımı önlemek için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 3,
+        "question": "LPG'nin (Propan/Bütan) kış aylarındaki ideal karışım oranı (Türkiye için) yaklaşık nedir?",
+        "options": [
+            "Tamamen Bütan gazıdır",
+            "%30 Propan - %70 Bütan",
+            "LPG sadece Propan'dan oluşur",
+            "%50 Propan - %50 Bütan"
+        ],
+        "answer": "%50 Propan - %50 Bütan",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 28,
+        "question": "LPG dönüşümü yapılmış araçta benzin deposunda yakıt bulundurmak neden gereklidir?",
+        "options": [
+            "Ağırlık yapsın diye",
+            "Gerekli değildir",
+            "Sadece muayene için",
+            "Benzin pompasının soğuması ve ilk çalışma için"
+        ],
+        "answer": "Benzin pompasının soğuması ve ilk çalışma için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 13,
+        "question": "Tank üzerinde bulunan emniyet valfi, basınç kaç bara ulaştığında gazı tahliye eder?",
+        "options": [
+            "5 Bar",
+            "10 Bar",
+            "100 Bar",
+            "27 Bar (±1 Bar)"
+        ],
+        "answer": "27 Bar (±1 Bar)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 1,
+        "question": "TS EN 589 standardı neyi ifade eder?",
+        "options": [
+            "Montaj servisinin yetki belgesini",
+            "LPG tankının üretim standardını",
+            "Otogaz (LPG) yakıtının kalite gerekliliklerini",
+            "Egzoz emisyon ölçümünü"
+        ],
+        "answer": "Otogaz (LPG) yakıtının kalite gerekliliklerini",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 4,
+        "question": "LPG tankı ile egzoz borusu arasındaki mesafe en az kaç cm olmalıdır (İzolasyonsuz)?",
+        "options": [
+            "1 cm",
+            "50 cm",
+            "5 cm",
+            "10 cm"
+        ],
+        "answer": "10 cm",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 15,
+        "question": "ECU (Elektronik Kontrol Ünitesi) LPG sisteminde hangi veriyi esas alarak gaz püskürtür?",
+        "options": [
+            "Radyo sesini",
+            "Hız göstergesini",
+            "Benzin enjektör sürelerini ve MAP basıncını",
+            "Koltuk sensörünü"
+        ],
+        "answer": "Benzin enjektör sürelerini ve MAP basıncını",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 22,
+        "question": "LPG ana kesici valfi (Solenoid) ne zaman kapanır?",
+        "options": [
+            "Gaza basınca",
+            "Vites değiştirince",
+            "Kontak kapatıldığında veya motor stop ettiğinde",
+            "Frene basınca"
+        ],
+        "answer": "Kontak kapatıldığında veya motor stop ettiğinde",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 17,
+        "question": "Hangisi 'Fakir Karışım' belirtisidir?",
+        "options": [
+            "Çiğ yakıt kokusu",
+            "Egzozdan siyah duman atma",
+            "Yüksek motor sıcaklığı (Hararet) ve performans düşüklüğü",
+            "Yakıtın bitmesi"
+        ],
+        "answer": "Yüksek motor sıcaklığı (Hararet) ve performans düşüklüğü",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 29,
+        "question": "LPG'li araçlarda buji tırnak aralığı nasıl ayarlanmalıdır?",
+        "options": [
+            "Çok açılmalıdır",
+            "Buji sökülmelidir",
+            "Orijinal değerden biraz daha düşük (0.1 - 0.2 mm kadar) olabilir",
+            "Farketmez"
+        ],
+        "answer": "Orijinal değerden biraz daha düşük (0.1 - 0.2 mm kadar) olabilir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 7,
+        "question": "Otogazlı araçlarda motor yağı değişim periyodu nasıl etkilenir?",
+        "options": [
+            "Yağ ömür boyu değişmez",
+            "Sadece su eklenir",
+            "Periyoda aynen uyulmalıdır, LPG yağı daha az kirletse de ısıl özellik değişebilir",
+            "Her 1000 km'de değişmelidir"
+        ],
+        "answer": "Periyoda aynen uyulmalıdır, LPG yağı daha az kirletse de ısıl özellik değişebilir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 21,
+        "question": "Benzinli bir araca LPG takıldığında CO (Karbonmonoksit) salınımı nasıl değişir?",
+        "options": [
+            "Artar",
+            "Sıfırlanır",
+            "Azalır (Daha çevrecidir)",
+            "Değişmez"
+        ],
+        "answer": "Azalır (Daha çevrecidir)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 16,
+        "question": "LPG tankı montajında kullanılan 'Çelik Kuşaklar'ın yalıtımı neden önemlidir?",
+        "options": [
+            "Tank ile kuşak arasında korozyonu (paslanmayı) önlemek için",
+            "Tankın kaymasını sağlamak için",
+            "Güzel görünmesi için",
+            "Sesi kesmek için"
+        ],
+        "answer": "Tank ile kuşak arasında korozyonu (paslanmayı) önlemek için",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 19,
+        "question": "LPG sisteminde filtresinin tıkanması hangisine yol açar?",
+        "options": [
+            "Yüksek devirlerde aracın benzine geçmesine veya çekiş düşüklüğüne",
+            "Motorun sessiz çalışmasına",
+            "Frenlerin tutmamasına",
+            "Klimanın bozulmasına"
+        ],
+        "answer": "Yüksek devirlerde aracın benzine geçmesine veya çekiş düşüklüğüne",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 23,
+        "question": "Otogaz alırken pompanın zorlanarak ses çıkarması durumunda ne yapılmalıdır?",
+        "options": [
+            "Devam edilmelidir",
+            "Dolum hemen durdurulmalıdır (Şamandıra kilitlenmiştir)",
+            "Depo sallanmalıdır",
+            "Pompa değiştirilmelidir"
+        ],
+        "answer": "Dolum hemen durdurulmalıdır (Şamandıra kilitlenmiştir)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 14,
+        "question": "Otogazın oktan sayısı (RON) ortalama kaçtır?",
+        "options": [
+            "Benzinden düşüktür",
+            "95 Oktan",
+            "103 - 105 Oktan",
+            "85 Oktan"
+        ],
+        "answer": "103 - 105 Oktan",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 30,
+        "question": "LPG 'Kuru Yakıt' mıdır?",
+        "options": [
+            "Hayır, çok yağlıdır",
+            "Sulu yakıttır",
+            "Sıvı olarak değil gaz fazında yandığı için yağlama etkisi benzine göre azdır",
+            "Evet, içinde toz vardır"
+        ],
+        "answer": "Sıvı olarak değil gaz fazında yandığı için yağlama etkisi benzine göre azdır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 25,
+        "question": "Sıralı sistemde motor suyu sıcaklık sensörü arızalanırsa ne olur?",
+        "options": [
+            "Araç gaza geç geçebilir veya hiç geçmeyebilir",
+            "Lastikler iner",
+            "Motor yanar",
+            "Farlar sönük yanar"
+        ],
+        "answer": "Araç gaza geç geçebilir veya hiç geçmeyebilir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 5,
+        "question": "Sıvılaştırılmış Petrol Gazı (LPG) normal atmosfer basıncında hangi sıcaklıkta kaynar?",
+        "options": [
+            "0°C",
+            "100°C",
+            "-42°C (Propan) civarında",
+            "500°C"
+        ],
+        "answer": "-42°C (Propan) civarında",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 24,
+        "question": "LPG tankı kullanım ömrü dolduğunda ne yapılır?",
+        "options": [
+            "Tüm araba hurdaya ayrılır",
+            "Sadece tank imha edilir, yenisi takılır",
+            "İçine su doldurulur",
+            "Tank boyanıp kullanılır"
+        ],
+        "answer": "Sadece tank imha edilir, yenisi takılır",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 9,
+        "question": "Direkt Enjeksiyonlu (GDI/TSI) araçlara takılan LPG kitlerinin temel farkı nedir?",
+        "options": [
+            "Tankın farklı olması",
+            "Manifoldun delinmemesi",
+            "Hiçbir farkı yoktur",
+            "Benzin enjektörlerini soğutmak için belli oranda benzin de tüketmesi"
+        ],
+        "answer": "Benzin enjektörlerini soğutmak için belli oranda benzin de tüketmesi",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 18,
+        "question": "LPG montajından sonra araç ruhsatına işletmek için 'Montaj Tespit Raporu'nu kim düzenler?",
+        "options": [
+            "Yetkili Makine Mühendisi",
+            "Noter",
+            "Şoförler Odası",
+            "Emniyet Müdürlüğü"
+        ],
+        "answer": "Yetkili Makine Mühendisi",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 20,
+        "question": "Simit tank montajında 'Havalandırma Bacası' nereye açılmalıdır?",
+        "options": [
+            "Bagaj içine",
+            "Arka koltuğa",
+            "Tavana",
+            "Aracın altına (Atmosfere)"
+        ],
+        "answer": "Aracın altına (Atmosfere)",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 27,
+        "question": "LPG buharı havadan ağır mıdır?",
+        "options": [
+            "Eşittir",
+            "Evet, ağırdır ve kaçak durumunda zeminde birikir",
+            "Bilinmiyor",
+            "Hayır, hafiftir uçar"
+        ],
+        "answer": "Evet, ağırdır ve kaçak durumunda zeminde birikir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 11,
+        "question": "Regülatör (Buharlaştırıcı) üzerindeki diyafram delinirse ne olur?",
+        "options": [
+            "Yakıt tasarrufu sağlanır",
+            "Soğutma suyuna veya manifolda gaz karışır, araç boğulur/su eksiltir",
+            "Klima daha iyi soğutur",
+            "Araç performansı artar"
+        ],
+        "answer": "Soğutma suyuna veya manifolda gaz karışır, araç boğulur/su eksiltir",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 26,
+        "question": "LPG tankının dolum kapasitesi neden %80 ile sınırlandırılmıştır?",
+        "options": [
+            "Motor boğulmasın diye",
+            "Sıcaklık artışında gazın genleşmesi için emniyet payı bırakmak adına",
+            "İstasyonlar daha az satsın diye",
+            "Tank daha hafif olsun diye"
+        ],
+        "answer": "Sıcaklık artışında gazın genleşmesi için emniyet payı bırakmak adına",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 6,
+        "question": "LPG sisteminde 'Multivalf' üzerinde bulunan aşırı akış valfinin görevi nedir?",
+        "options": [
+            "Motoru soğutmak",
+            "Dolumu %100 yapmayı sağlamak",
+            "Tank basıncını artırmak",
+            "LPG borusu koptuğunda gaz akışını otomatik kesmek"
+        ],
+        "answer": "LPG borusu koptuğunda gaz akışını otomatik kesmek",
+        "difficulty": "Orta"
+    }
+]
